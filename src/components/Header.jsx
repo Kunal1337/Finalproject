@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/">Watch Us Go</Link>
+        <Link to="/">Watch US Go</Link>
       </div>
 
       <nav className="nav">
@@ -19,7 +19,7 @@ const Header = () => {
 
       <div className="header-actions">
         <Link to="/cart" className="cart">
-          🛒 Cart
+          Cart
         </Link>
         <Link to="/login" className="login">
           Login

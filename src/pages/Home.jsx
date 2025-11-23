@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import watch1 from '../assets/watch-1.jpg';
+import watch2 from '../assets/watch-2.jpg';
+import watch3 from '../assets/watch-3.jpg';
+
 const Home = () => {
   return (
     <div className="home-page">
@@ -19,19 +23,19 @@ const Home = () => {
         <h2>Featured Watches</h2>
         <div className="products-grid">
           <div className="product-card">
-            <img src="/assets/watch1.jpg" alt="Watch 1" />
+            <img src={watch1} alt="Watch 1" />
             <h3>Classic Silver</h3>
             <p>$199</p>
             <Link to="/shop" className="btn-small">Buy Now</Link>
           </div>
           <div className="product-card">
-            <img src="/assets/watch2.jpg" alt="Watch 2" />
+            <img src={watch2} alt="Watch 2" />
             <h3>Luxury Gold</h3>
             <p>$299</p>
             <Link to="/shop" className="btn-small">Buy Now</Link>
           </div>
           <div className="product-card">
-            <img src="/assets/watch3.jpg" alt="Watch 3" />
+            <img src={watch3} alt="Watch 3" />
             <h3>Sporty Black</h3>
             <p>$249</p>
             <Link to="/shop" className="btn-small">Buy Now</Link>

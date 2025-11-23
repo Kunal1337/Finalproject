@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-section">
-        <h4>Watch Us Go</h4>
+        <h4>Watch US Go</h4>
         <p>Premium watches delivered worldwide.</p>
       </div>
 
@@ -20,7 +20,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Watch Us Go. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Watch US Go. All rights reserved.</p>
       </div>
     </footer>
   );
